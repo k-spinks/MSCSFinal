@@ -1,0 +1,17 @@
+{
+  "name": "mscs_final",
+  "version": "0.0.1",
+  "description": "Wordle game using a Dawg",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Kevin Spinks",
+  "license": "MIT",
+  "prettier": {
+    "editorconfig": true
+  },
+  "dependencies": {
+  }
+}
