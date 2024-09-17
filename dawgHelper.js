@@ -46,10 +46,7 @@ function testWord(root, word) {
             return false
         }
     }
-
-
     console.log(`End of word "${word}". Word end flag: ${currentNode.wordEnd}`);
-
     return currentNode.wordEnd
 }
 
