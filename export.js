@@ -6,10 +6,8 @@ function processFile(inputFilePath, outputFilePath) {
             console.error('Error reading file:', err);
             return;
         }
-        
         // Split the file contents into individual items
         const items = data.trim().split(/\s+/);
-        
         // Add single quotes around each item and join them with commas
         const formattedItems = items.map(item => `'${item}'`).join(', ');
 
@@ -23,7 +21,6 @@ function processFile(inputFilePath, outputFilePath) {
         });
     });
 }
-
 
 const inputFilePath = 'wordList.txt';
 const outputFilePath = 'dictionary.js';
