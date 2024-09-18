@@ -14,9 +14,7 @@ The core functionality relies on JavaScript. To efficiently validate words, a Di
 ![Wordle win](/img/WordleWin.png)
 
 ## Potential Optimizations
-One optimization would be a visual indication to the user that a word entered is not found in the dictionary. As is the invalid indicator is placed as a `console.log`.
-
-Another optimization is to implement a full game loop which would allow the user to replay instead of having to refresh to replay and generate a new word.
+Implement a full game loop that allows the user to replay instead of refreshing to replay and generate a new word.
 
 ## What I learned
 
